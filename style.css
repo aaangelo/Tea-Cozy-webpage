@@ -126,3 +126,23 @@ p {
     text-align: center;
     padding: 14px;
 }
+
+h5 {
+    color: seashell;
+    font-size: 15px;
+    text-align: center;
+}
+
+#contact-box {
+    height: 200px;
+}
+
+.contact {
+    background-color: black;
+}
+
+#c {
+    background-color: black;
+    margin-left: 20px;
+    color: seashell;
+}
