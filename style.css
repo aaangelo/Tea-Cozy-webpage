@@ -43,7 +43,6 @@ main {
 }
 
 #mission {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,15 +53,14 @@ main {
 
 
 }
-
-#text {
-    border: 4px solid purple;
-    width: 1200px;
+.text {
     background-color: black;
+}
+#mission-text {
+    width: 1200px;
 }
 
 h2 {
-    border: 1px solid red;
     text-align: center;
     color: seashell;
 }
@@ -70,4 +68,25 @@ h2 {
 h4 {
     text-align: center;
     color: seashell;
+}
+
+#month {
+    width: 1000px;
+    margin: auto;
+    background-color: black;
+}
+
+#monthlytea {
+    display: inline-flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.tea-pic {
+    height: 190px;
+    width: 290px;
+    margin: 10px;
 }
