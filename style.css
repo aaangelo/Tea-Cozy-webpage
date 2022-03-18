@@ -1,4 +1,5 @@
 * { 
+
 }
 
 body {
@@ -15,7 +16,6 @@ header {
     border-bottom: 1px solid seashell;
     position: fixed;
     top: 0;
-  
 }
 
 #logo {
@@ -81,12 +81,48 @@ h4 {
     max-width: 1000px;
     flex-wrap: wrap;
     justify-content: center;
-    
-    
 }
 
 .tea-pic {
     height: 190px;
     width: 290px;
     margin: 10px;
+}
+
+#locations {
+    background-image: url(./pics/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+}
+
+#locations-title {
+    padding-top: 70px;
+    margin-bottom: 0px;
+    }
+
+#cube-of-cubes {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.location-cube {
+    background-color: black;
+    width: 300px;
+    margin: 15px 20px;
+}
+
+h3 {
+    font-size: 22px;
+    color:  seashell;
+    text-align: center;
+    padding: 16px;
+}
+
+p {
+    font-size: 20px;
+    color:  seashell;
+    text-align: center;
+    padding: 14px;
 }
