@@ -1,11 +1,13 @@
 * { 
-
 }
+
 
 body {
     margin: 0%;
     font-family: Helvetica;
+    background-color: black;
 }
+
 header {
     background-color: black;
     font-family: Helvetica;
@@ -33,11 +35,9 @@ ul {
     margin-right: 10px;
 }
 
-li {
-    display: inline-flex;
-    text-decoration: underline
+a {
+    color: seashell;
 }
-
 main {
     margin-top: 69px;  
 }
@@ -143,6 +143,6 @@ h5 {
 
 #c {
     background-color: black;
-    margin-left: 20px;
     color: seashell;
+    display: inline;
 }
